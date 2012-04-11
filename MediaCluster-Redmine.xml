@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName><![CDATA[MediaCluster Redmine]]></ShortName>
+  <Description><![CDATA[MediaCluster Project Management]]></Description>
+  <Url type="text/html" method="get" template="https://intern.mediacluster.de/redmine/search">
+    <Param name="q" value="{searchTerms}"/>
+  </Url>
+  <Image width="16" height="16" type="image/x-icon">http://www.mediacluster.de/favicon.ico</Image>
+  <Developer><![CDATA[Marco Ziesing]]></Developer>
+  <SearchForm>https://intern.mediacluster.de/redmine/search</SearchForm>
+</OpenSearchDescription>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName><![CDATA[Pinterest]]></ShortName>
+  <Description><![CDATA[Pinterest]]></Description>
+  <Url type="text/html" method="get" template="http://pinterest.com/search/?q={searchTerms}"/>
+  <Image width="16" height="16">http://passets-cdn.pinterest.com/images/favicon.png</Image>
+  <Developer><![CDATA[Marco Ziesing]]></Developer>
+  <SearchForm>http://forge.typo3.org/search</SearchForm>
+</OpenSearchDescription>

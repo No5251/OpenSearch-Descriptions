@@ -1,0 +1,11 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Ecosia</ShortName>
+<Description>Ecosia Search</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Contact>webmaster@ecosia.org</Contact>
+<Image width="16" height="16" type="image/gif">http://ecosia.org/favicon.ico</Image>
+<Url type="text/html" method="get" template="http://ecosia.org/search.php?q={searchTerms}&amp;addon=opensearch" />
+<Url type="application/x-suggestions+json" template="http://ecosia.org/ajax/searchsuggestions.php?q={searchTerms}&amp;addon=opensearch" />
+<Url type="application/opensearchdescription+xml" rel="self" template="http://ecosia.org/addon/searchplugin.xml" />
+<moz:SearchForm>searchFormURL</moz:SearchForm>
+</OpenSearchDescription>

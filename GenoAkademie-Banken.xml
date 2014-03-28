@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName><![CDATA[GenoAkademie (Banken)]]></ShortName>
+  <Description><![CDATA[GenoAkademie Seminar- und Volltextsuche für Banken]]></Description>
+  <Url type="text/html" method="post" template="https://www.genoakademie.de/nc/banken/suche.html">
+    <Param name="tx_semsearch_pi1[sword]" value="{searchTerms}"/>
+    <Param name="tx_indexedsearch[sword]" value="{searchTerms}"/>
+    <Param name="tx_indexedsearch[_sections]" value="0"/>
+    <Param name="tx_indexedsearch[_freeIndexUid]" value="_"/>
+    <Param name="tx_indexedsearch[pointer]" value="0"/>
+    <Param name="tx_indexedsearch[ext]" value="1"/>
+    <Param name="tx_indexedsearch[type]" value="1"/>
+    <Param name="tx_indexedsearch[defOp]" value="0"/>
+    <Param name="tx_indexedsearch[media]" value="-1"/>
+    <Param name="tx_indexedsearch[order]" value="rank_flag"/>
+    <Param name="tx_indexedsearch[group]" value="flat"/>
+    <Param name="tx_indexedsearch[lang]" value="-1"/>
+    <Param name="tx_indexedsearch[desc]" value="0"/>
+    <Param name="tx_indexedsearch[results]" value="5"/>
+  </Url>
+  <Image width="16" height="16" type="image/x-icon">data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wDx7Ob/xrOa/6eKY/+XdUf/p4pj/8Crj//x7Ob/////AP///wD///8A////AP///wD///8A////AP///wDl3dH/i2Yy/29AAP9vQAD/flMa/3NFBv9vQAD/wq6S/////wD///8A////AP///wD///8A////AP///wD6+Pb/l3VH/29AAP+XdUf/5d3R//z8+v+6o4T/b0AA/76pjP////8A////AP///wD///8A////AP///wD///8A39XH/3NFBv9+Uxr/6+Tb/////wDx7Ob/spl3/29AAP+8poj/////AP///wD///8A////AP///wD///8A////ANHCrv9vQAD/i2Yy/////wD8/Pr/l3VH/29AAP9vQAD/uqOE/////wD///8A////AP///wD///8A////AP///wDZzbz/b0AA/4tmMv/8/Pr/////ANHCrv++qYz/wKuP/+LZzP////8A////AP///wD///8A2c28/////wD///8A8ezm/4RcJf9vQAD/y7uk/////wD///8A////AP///wD///8A////AP///wD///8A////ANnNvP////8A////AP///wDGs5r/b0AA/3NFBv+rkGv/wq6S/7ymiP+ymXf/9/Tw/////wD///8A////AP///wDWybf/9vPu/////wD///8A////AMu7pP+EXCX/b0AA/29AAP9vQAD/ek8U/+vk2/////8A////AP///wD///8A6+Tb/9HCrv////8A////AP///wD///8A39XH/76pjP+rkGv/spl3/8u7pP/49vP/////AP///wD8/Pr/////AP///wDCrpL/1sm3/////wD///8A////AP///wD///8A////AP///wD///8A////APbz7v+XdUf/uqOE/////wD///8A/Pz6/7qjhP/CrpL//Pz6/////wD///8A////AP///wD///8A////AN/Vx/+EXCX/i2Yy//Hs5v////8A////AP///wD8/Pr/spl3/6OFXP/Lu6T/4tnM//Hs5v/r5Nv/0cKu/6eKY/9zRQb/o4Vc//r49v////8A////AP///wD///8A////AP///wDr5Nv/uqOE/6OFXP+LZjL/hFwl/5d1R/+ymXf/5d3R/////wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A//8AAPgPAADwDwAA4A8AAOEPAADiDwAA4Q8AAGH/AABwDwAAOA8AADwNAACf8QAAh+EAAMADAADwDwAA//8AAA==</Image>
+  <Developer><![CDATA[Marco Ziesing]]></Developer>
+  <moz:SearchForm>https://www.genoakademie.de/nc/banken/suche.html</moz:SearchForm>
+</OpenSearchDescription>

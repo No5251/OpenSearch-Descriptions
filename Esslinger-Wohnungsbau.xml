@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName><![CDATA[EWB ES]]></ShortName>
+  <Description><![CDATA[Esslinger Wohnungsbau Volltextsuche]]></Description>
+  <Url type="text/html" method="post" template="http://relaunch.esslinger-wohnungsbau.de/suche.html">
+    <Param name="tx_semsearch_pi1[sword]" value="{searchTerms}"/>
+    <Param name="tx_indexedsearch[sword]" value="{searchTerms}"/>
+    <Param name="tx_indexedsearch[_sections]" value="0"/>
+    <Param name="tx_indexedsearch[_freeIndexUid]" value="_"/>
+    <Param name="tx_indexedsearch[pointer]" value="0"/>
+    <Param name="tx_indexedsearch[ext]" value="1"/>
+    <Param name="tx_indexedsearch[type]" value="1"/>
+    <Param name="tx_indexedsearch[defOp]" value="0"/>
+    <Param name="tx_indexedsearch[media]" value="-1"/>
+    <Param name="tx_indexedsearch[order]" value="rank_flag"/>
+    <Param name="tx_indexedsearch[group]" value="flat"/>
+    <Param name="tx_indexedsearch[lang]" value="-1"/>
+    <Param name="tx_indexedsearch[desc]" value="0"/>
+    <Param name="tx_indexedsearch[results]" value="5"/>
+  </Url>
+  <Image width="16" height="16" type="image/gif">http://relaunch.esslinger-wohnungsbau.de/typo3conf/ext/bootstrap_package/Resources/Public/Icons/favicon.ico</Image>
+  <Developer><![CDATA[Marco Ziesing]]></Developer>
+  <Contact>m.ziesing@mediacluster.de</Contact>
+  <moz:SearchForm>http://relaunch.esslinger-wohnungsbau.de/suche.html</moz:SearchForm>
+</OpenSearchDescription>
